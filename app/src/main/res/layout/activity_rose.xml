@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"> <!-- Add a gradient background -->
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/roseAnimation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        app:lottie_rawRes="@raw/rose"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tap the rose to continue"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp" />
+</RelativeLayout>
